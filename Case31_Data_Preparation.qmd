@@ -495,10 +495,10 @@ file.exists("outputs/case31_prepared.sav")
 
 # Summary
 
-The SPSS dataset contains `r nrow(data_raw)` provided responses. I checked questionnaire coding and measurement levels, added variable and response labels, screened incomplete and unusual responses without automatically excluding them, examined missing and invalid answers, reverse-coded the variables specified in the demonstration, ran frequency checks, and tested the employee-proficiency scale. Q3–Q6 have a Cronbach's alpha of `r round(employee_alpha$total$raw_alpha, 3)` and the calculated employee-proficiency mean is `r round(mean(analysis$employee_proficiency, na.rm = TRUE), 3)` on a five-point scale. I kept Q30–Q34 separate because their internal consistency is weaker.
+The SPSS dataset contains `r nrow(data_raw)` provided responses. I checked questionnaire coding and measurement levels, added variable and response labels, screened incomplete and unusual responses without automatically excluding them, examined missing and invalid answers, reverse-coded the variables, ran frequency checks, and tested the employee-proficiency scale. Q3–Q6 have a Cronbach's alpha of `r round(employee_alpha$total$raw_alpha, 3)` and the calculated employee-proficiency mean is `r round(mean(analysis$employee_proficiency, na.rm = TRUE), 3)` on a five-point scale. I kept Q30–Q34 separate because their internal consistency is weaker.
 
 # Appendix
 
-GitHub Repository
+[GitHub Repository](https://github.com/Sheilaaa0312/Case31_Data_Preparation)
 
 GitHub Pages
