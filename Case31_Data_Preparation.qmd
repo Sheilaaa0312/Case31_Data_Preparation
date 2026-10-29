@@ -501,4 +501,4 @@ The SPSS dataset contains `r nrow(data_raw)` provided responses. I checked quest
 
 [GitHub Repository](https://github.com/Sheilaaa0312/Case31_Data_Preparation)
 
-GitHub Pages
+[GitHub Pages](https://sheilaaa0312.github.io/Case31_Data_Preparation/)
